@@ -1,10 +1,11 @@
 import React from 'react'
+import profilepic from "../profilepic.png"
 
 const ProfilePhoto = () => {
   return (
     <div>
       <h1>
-        <img src={ProfilePhoto} alt=''/>
+        <img src={profilepic} alt=''/>
       </h1>
     </div>
   )
